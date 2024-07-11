@@ -1,5 +1,5 @@
 Aim:
-* Create migration tool using native PHP
+* Learn how to use Twig
 
 Requirements:
 * OS with docker installed on it

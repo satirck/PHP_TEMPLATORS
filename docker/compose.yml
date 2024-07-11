@@ -1,10 +1,10 @@
 services:
 
   php:
+    container_name: php-templates
     build: ./php
     ports:
       - 80:80
     volumes:
-      - ../:/var/www/html
-    working_dir: /var/www/html/public
+      - ../src:/var/www/html
     entrypoint: [ "php", "-S", "0.0.0.0:80" ]

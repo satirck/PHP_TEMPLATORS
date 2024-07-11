@@ -5,6 +5,6 @@
         }
     },
     "require": {
-        "ext-xdebug": "*"
+        "twig/twig": "^3.10"
     }
 }
